@@ -17,8 +17,8 @@
 ## 啟動方式
 
 ```bash
-git clone https://github.com/JackLaiplus/Project-BDSE-end-of-term-project.git
-cd Project-BDSE-end-of-term-project
+git clone https://github.com/JackLaiplus/Project_Voyage-Compass.git
+cd Project_Voyage-Compass
 docker compose up -d --build # 在背景執行
 ```
 
