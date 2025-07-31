@@ -26,8 +26,7 @@ docker compose up -d --build # 在背景執行
 
 |目錄 | 用途 |
 |---------------|------|
-| init/         | 初始 SQL 建表檔 |
-| city_mysql/   | MySQL 資料庫容器 |
+| city_mysql/init   | 初始 SQL table |
 | city_loader/   | ETL 資料處理容器 |
 | city_web/          | Flask 顯示 HTML 頁面 |
 | city_streamlit/    | 資料視覺化城市指標 |
