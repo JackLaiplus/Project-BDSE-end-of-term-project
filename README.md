@@ -9,10 +9,18 @@
 
 請見下方啟動方式與專案目錄結構。
 
-## 環境需求
+## 專案環境需求
 
 - Docker & Docker Compose
-- git
+
+## 專案目錄結構簡介
+
+|目錄 | 用途 |
+|---------------|------|
+| city_mysql/init   | 初始化 SQL table |
+| city_loader/   | ETL 資料處理容器 |
+| city_web/          | Flask 顯示 HTML 頁面 |
+| city_streamlit/    | 資料視覺化城市指標 |
 
 ## 啟動方式
 
@@ -21,12 +29,3 @@ git clone https://github.com/JackLaiplus/Project_Voyage-Compass.git
 cd Project_Voyage-Compass
 docker compose up -d --build # 在背景執行
 ```
-
-## 目錄結構簡介
-
-|目錄 | 用途 |
-|---------------|------|
-| city_mysql/init   | 初始化 SQL table |
-| city_loader/   | ETL 資料處理容器 |
-| city_web/          | Flask 顯示 HTML 頁面 |
-| city_streamlit/    | 資料視覺化城市指標 |
