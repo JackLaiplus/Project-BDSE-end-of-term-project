@@ -18,9 +18,9 @@
 |目錄 | 用途 |
 |---------------|------|
 | city_mysql/init   | 初始化 SQL table |
-| city_loader/   | ETL 資料處理容器 |
-| city_web/          | Flask 顯示 HTML 頁面 |
 | city_streamlit/    | 資料視覺化城市指標 |
+| city_web/          | Flask 顯示 HTML 頁面 |
+| city_loader/   | ETL 資料處理容器 |
 
 ## 啟動方式
 
