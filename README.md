@@ -7,7 +7,7 @@
 3. Web 容器（Flask 顯示 HTML 頁面）
 4. Streamlit 容器（資料視覺化城市指標）
 
-請見下方啟動方式與任務分工。
+請見下方啟動方式與專案目錄結構。
 
 ## 環境需求
 
@@ -22,11 +22,11 @@ cd Project_Voyage-Compass
 docker compose up -d --build # 在背景執行
 ```
 
-## 專案結構簡介
+## 目錄結構簡介
 
 |目錄 | 用途 |
 |---------------|------|
-| city_mysql/init   | 初始 SQL table |
+| city_mysql/init   | 初始化 SQL table |
 | city_loader/   | ETL 資料處理容器 |
 | city_web/          | Flask 顯示 HTML 頁面 |
 | city_streamlit/    | 資料視覺化城市指標 |
